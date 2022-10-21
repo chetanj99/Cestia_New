@@ -1,0 +1,107 @@
+.text-first {
+  font-size: 80px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: capitalize;
+  width: 0ch;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: text 3s infinite;
+  border-right: 3px solid #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+@keyframes text {
+  0% {
+    width: 0ch;
+  }
+  50% {
+    width: 14ch;
+  }
+}
+
+.text-second {
+  font-size: 80px;
+  font-weight: bold;
+  color: #fff;
+  width: 0ch;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: text2 3s infinite;
+  border-right: 3px solid #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+@keyframes text2 {
+  0% {
+    width: 0ch;
+  }
+  50% {
+    width: 16ch;
+  }
+}
+
+.text-third {
+  font-size: 80px;
+  font-weight: 700;
+  color: #fff;
+  width: 0ch;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: text3 3s infinite;
+  border-right: 3px solid #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+@keyframes text3 {
+  0% {
+    width: 0ch;
+  }
+  50% {
+    width: 16ch;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .text-first {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: capitalize;
+    width: 0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text 3s infinite;
+    border-right: 3px solid #fff;
+    font-family: "Poppins", sans-serif;
+  }
+}
+@media only screen and (max-width: 599px) {
+  .text-second {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: capitalize;
+    width: 0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text 3s infinite;
+    border-right: 3px solid #fff;
+    font-family: "Poppins", sans-serif;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .text-third {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: capitalize;
+    width: 0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text 3s infinite;
+    border-right: 3px solid #fff;
+    font-family: "Poppins", sans-serif;
+  }
+}
